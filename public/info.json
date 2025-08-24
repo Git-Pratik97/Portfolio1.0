@@ -1,0 +1,106 @@
+{
+  "name": "Pratik Kamble",
+  "contact": {
+    "phone": "+91 77438 79296",
+    "email": "pratikkambleat@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/pratik-kamble1/",
+    "github" : "https://github.com/Git-Pratik97"
+  },
+  "title": "Java Developer | Spring Boot | Cloud-Native Microservices | Kafka | PostgreSQL",
+  "summary": "Java Developer with over 3 years of hands-on experience in designing and deploying scalable microservices using Spring Boot. Proven ability to optimize system performance, automate CI/CD pipelines, and support high-traffic applications with over 50,000 global users. Adept in Kafka, PostgreSQL, and cloud-first architectures, with a strong focus on performance tuning and system reliability.",
+  "skills": {
+    "languages": ["Java 8", "Python"],
+    "frameworks": ["Spring Boot", "ReactJS", "Angular"],
+    "databases": ["PostgreSQL", "Oracle SQL", "MySQL", "MongoDB"],
+    "tools_devops": ["Git", "AWS", "Kafka", "CI/CD", "REST", "SVN"],
+    "testing": ["JUnit", "Mockito", "Postman", "Swagger", "Soap-UI"]
+  },
+  "experience": [
+    {
+      "role": "Java Developer",
+      "company": "Capgemini Technology Services",
+      "duration": "Sep 2022 – Present",
+      "projects": [
+        {
+          "name": "Residual Value Coefficient Microservice",
+          "tech_stack": ["Java", "Spring Boot", "MySQL", "AWS RDS", "Kafka"],
+          "highlights": [
+            "Engineered a real-time coefficient update engine using Spring Boot and Kafka, enhancing brand coverage logic by 60%.",
+            "Designed rollback-safe controls for future-dated entries, reducing data discrepancies by 20%.",
+            "Automated backend persistence for CRUD operations, ensuring 100% data integrity and reducing manual errors.",
+            "Delivered a scalable solution that cut update turnaround time by 40%, boosting pricing agility."
+          ]
+        },
+        {
+          "name": "Freight Billing with Multi-Modal Invoicing",
+          "tech_stack": ["Java", "Spring Boot", "Oracle SQL"],
+          "highlights": [
+            "Architected domain-specific services to reduce business complexity by 40% and improve modularity.",
+            "Refactored legacy batch logic into stateless services, reducing latency by 40%.",
+            "Enabled seamless cloud migration with backup configuration and validation, ensuring compliance.",
+            "Redesigned the data model using Spring Data JPA for full compatibility with microservices."
+          ]
+        },
+        {
+          "name": "Sales Margin Analysis Microservice",
+          "tech_stack": ["Java", "Spring Boot", "Oracle SQL", "JSP"],
+          "highlights": [
+            "Developed outbound REST clients with structured error handling and centralized logging.",
+            "Resolved transactional workflow issues, achieving 100% accuracy in data movement.",
+            "Explored Generative AI to auto-generate API documentation, enhancing developer productivity."
+          ]
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nutrition Application",
+      "company": "Capgemini",
+      "link": "https://github.com/Git-Pratik97/Nutrition_App_Integrated/tree/master/Integration/Integration%20(Adarsh)/Nutrition_App_Integrated/src/main/java/com/group_4_trial_1/Nutri_App_user_Trial",
+      "description": "Developed a Spring Boot + PostgreSQL application with REST APIs to track meals and analyze dietary habits. Integrated secure authentication and advanced analytics to provide personalized insights. Optimized PostgreSQL queries to improve data recovery time by 35%."
+    },
+    {
+      "name": "Online Job Portal Backend",
+      "company": "Capgemini",
+      "link": "https://github.com/Git-Pratik97/Online-Jobs-Backend-upadated.git",
+      "description": "Built a backend system for a job portal using JDBC and Hibernate. Enhanced system responsiveness by 20% and ensured seamless data retrieval with robust database integrity mechanisms."
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Cloud Practitioner – Introduction to AWS",
+      "issuer": "Coursera",
+      "id": "W1VVKGS26E5S",
+      "date": "May 2025",
+      "link": "https://coursera.org/verify/W1VVKGS26E5S"
+    }
+  ],
+  "education": [
+    {
+      "institution": "NIT Calicut, Kozhikode, India",
+      "degree": "B.Tech in Mechanical Engineering",
+      "gpa": "7.6",
+      "duration": "June 2018 – May 2022",
+      "description": "Strengthened analytical and technical skills through rigorous coursework and real-time application design."
+    },
+    {
+      "institution": "JNV Ratnagiri, Maharashtra, India",
+      "degree": "High School",
+      "score": "79.8%",
+      "duration": "June 2015 – May 2017"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Star Performer",
+      "date": "Aug 2024",
+      "description": "Awarded for driving workflow innovation that led to a 30% increase in customer retention in client-facing operations."
+    },
+    {
+      "title": "CLAPatCapgemini",
+      "date": "Mar 2025",
+      "description": "Recognized under Capgemini’s internal excellence program for delivering a client solution that generated €55,000 in profit."
+    }
+  ]
+}

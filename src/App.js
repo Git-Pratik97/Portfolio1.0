@@ -1,24 +1,37 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import Introduction from './components/introComponent/Introduction';
+import PortfolioNavbar from './components/navBarComponent/PortfolioNavbar';
+import Contact from './components/contactComponent/Contact';
+import Experience from './components/experienceComponent/Experience';
 
 function App() {
+  const [intro, setIntro] = useState('');
+  const [projects, setProjects] = useState([]);
+  const [skills, setSkill] = useState([]);
+  const [info, setInfo] = useState(null);
+
+  useEffect(() => {
+    fetch(process.env.PUBLIC_URL + '/info.json')
+      .then((response) => response.json())
+      .then((data) => setInfo(data))
+      .catch((error) => console.error('Error fetching info:', error));
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <PortfolioNavbar />
+        <Routes>
+          <Route path="/" element={<Introduction />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
+          {/* Add more routes here as you add more components */}
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
