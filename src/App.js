@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import Introduction from './components/introComponent/Introduction';
 import PortfolioNavbar from './components/navBarComponent/PortfolioNavbar';
@@ -21,7 +22,7 @@ function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="App">
         <PortfolioNavbar />
         <Routes>
@@ -31,7 +32,7 @@ function App() {
           {/* Add more routes here as you add more components */}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
