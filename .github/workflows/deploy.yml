@@ -22,7 +22,10 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: |
+          unset CI
+          npm run build
+
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
